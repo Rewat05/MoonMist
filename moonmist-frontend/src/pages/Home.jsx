@@ -63,20 +63,12 @@ const Home = () => {
 
           {/* Hero visual */}
           <div className="relative">
-            <div className="aspect-[4/3] rounded-3xl bg-gradient-to-br from-[#272343] via-[#3c325b] to-[#029fae] shadow-lg overflow-hidden flex items-end p-6">
-              <div className="space-y-2 text-white max-w-xs">
-                <p className="flex items-center gap-2 text-xs uppercase tracking-[0.18em]">
-                  <Moon className="w-4 h-4 text-[#8ff0ff]" />
-                  night in, lights low
-                </p>
-                <h2 className="text-xl font-semibold">
-                  Nightwear that feels like a soft exhale.
-                </h2>
-                <p className="text-xs text-white/80">
-                  Pair your favorite playlist with fabrics that move the way you
-                  do – slow, easy, and unbothered.
-                </p>
-              </div>
+            <div className="aspect-[4/3] rounded-3xl shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dh0a6vbts/image/upload/v1765038044/logo_picture_moonmist_v2edys.png"
+                alt="MoonMist nightwear hero"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -199,15 +191,22 @@ const Home = () => {
 
 export default Home;
 
-// const Home = () => {
-//   return (
-//     <section>
-//       <h1 className="text-2xl font-semibold mb-2">Welcome to moonmist</h1>
-//       <p className="text-slate-400">
-//         Minimal ecommerce demo. Use the navbar to explore products.
-//       </p>
-//     </section>
-//   );
-// };
-
-// export default Home;
+{
+  /* <div className="relative">
+            <div className="aspect-[4/3] rounded-3xl bg-gradient-to-br from-[#272343] via-[#3c325b] to-[#029fae] shadow-lg overflow-hidden flex items-end p-6">
+              <div className="space-y-2 text-white max-w-xs">
+                <p className="flex items-center gap-2 text-xs uppercase tracking-[0.18em]">
+                  <Moon className="w-4 h-4 text-[#8ff0ff]" />
+                  night in, lights low
+                </p>
+                <h2 className="text-xl font-semibold">
+                  Nightwear that feels like a soft exhale.
+                </h2>
+                <p className="text-xs text-white/80">
+                  Pair your favorite playlist with fabrics that move the way you
+                  do – slow, easy, and unbothered.
+                </p>
+              </div>
+            </div>
+          </div> */
+}
